@@ -3,6 +3,10 @@
 
 # COMMAND ----------
 
+print("hello")
+
+# COMMAND ----------
+
 df=spark.read.json('dbfs:/FileStore/tables/formula1_raw/constructors.json')
 
 # COMMAND ----------
